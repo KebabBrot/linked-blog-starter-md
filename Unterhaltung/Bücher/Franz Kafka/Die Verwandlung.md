@@ -1,0 +1,1 @@
+Geschrieben von [Franz Kafka](Franz%20Kafka.md) handelt von Gregor Samsa, welcher sich eines Morgens als Käfer auffindet.

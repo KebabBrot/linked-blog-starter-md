@@ -18,4 +18,4 @@ print("asdf")
 asdfbsaudifbuasd
 
 
-[[Dissoziative Persönlichkeit]]
+[[../../Mental/Dissoziative Persönlichkeit]]
