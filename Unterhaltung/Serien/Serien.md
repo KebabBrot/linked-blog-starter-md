@@ -1,4 +1,15 @@
-Mr Robot 
+[[Mr.Robot]]
+
 ..
 ..
 ..
+
+```python
+print("asdf")
+```
+
+
+asdfbsaudifbuasd
+
+
+[[Dissoziative Persönlichkeit]]
