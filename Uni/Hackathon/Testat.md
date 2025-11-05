@@ -519,3 +519,34 @@ Warum kopieren wir test_start.sh in task3 ? Wofür ist die Datei?!
 # Anhang
 
 ![](../../Attachments/Pasted%20image%2020251030144815.png)
+**Allgemein Linux**
+
+Gesamten Ordnerinhalt kopieren:
+
+cp -a ../task2/. ../task3 -> Kopiere alle Inhalte von task2 nach task3 (PUNKT AM ENDE VON TASK2 WICHTIG! „/.“)
+
+**Git**
+
+Klonen Sie das Repository lokal:
+
+git clone (Pfad).git   -> HTTPS Clone
+
+Commit erstellen:
+
+git status
+
+git add .     -> Alle Änderungen werden hinzugefügt
+
+git commit -m "Hier steht ein Text" -> -m steht für Message
+
+Lokale Änderungen pushen:
+
+Wenn bei „git push“
+
+remote: GitLab: You are not allowed to push code to protected branches on this project.
+
+Dann:
+
+git checkout -b erik.n
+
+git push origin erik.n
