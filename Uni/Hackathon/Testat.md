@@ -479,3 +479,32 @@ def test_publish_does_not_call_helpers_on_file_not_found(monkeypatch):
     assert meta_data_calls == 0
     assert mqtt_publish_calls == 0
 ```
+
+
+```yml
+# Definiert die Phasen (Stages) der Pipeline. In diesem Fall nur eine.
+stages:
+  - test
+
+# Definiert den Job, der die Tests ausführt.
+# Der Name 'run_tests' ist frei wählbar.
+run_tests:
+  # Weist den Job der 'test'-Stage zu.
+  stage: test
+
+  # Gibt das Docker-Image an, das der Runner verwenden soll.
+  # Wir wählen ein offizielles Python 3.9 Image, da dies deiner Projektversion entspricht.
+  image: python:3.9
+
+  # Die Befehle, die der Runner für diesen Job ausführen soll.
+  # Jeder Strich (-) ist ein separater Befehl.
+  script:
+    - echo "Schritt 1: Python-Abhängigkeiten installieren..."
+    # 'pip' ist im python:3.9-Image bereits vorhanden.
+    # Dieser Befehl setzt voraus, dass eine 'requirements.txt'-Datei im Repository existiert.
+    - pip install -r requirements.txt
+
+    - echo "Schritt 2: Pytest-Tests ausführen..."
+    # Führt die Tests aus dem spezifischen Verzeichnis aus, in dem deine Testdateien liegen.
+    - pytest uebung/task3/tests/
+```
