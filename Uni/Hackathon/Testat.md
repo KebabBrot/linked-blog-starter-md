@@ -42,7 +42,7 @@ cp -a pfadzumverzeichnis/.         .
 
 
 
-````python
+```python
 import sys
 
 # Einfach den vollständigen Pfad zum Ordner 'task3' hart codieren
