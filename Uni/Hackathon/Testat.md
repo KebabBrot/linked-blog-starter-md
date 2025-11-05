@@ -273,18 +273,8 @@ Stellen Sie sicher, dass Ihr Branch auf unserem GitLab (Remote) und in Ihrem Hom
 
 -----------------------------
 
-4. ![](../../Attachments/Pasted%20image%2020251030144815.png)
 
-
-BEFEHLE
-chmod 777  oder chmod +x
-cp -r /opt/task2/ ./task2 ::::copy folder 
-
-ipyhton3 hello.py cedoh001 - hier als input für sys.argv
-
-
-
-SCHRITT 2
+### count_and_publish.py
 ```python
 import re
 from info_helper import get_current_path, get_meta_data
@@ -331,16 +321,10 @@ if __name__ == "__main__":
 ```
 
 
-![](../../Attachments/Pasted%20image%2020251030195306.png)
-
-dateien von einem verzeichnis in ein anderes kopieren
-
-cp -a pfadzumverzeichnis/.         .
 
 
 
-
-
+### test_count.py
 ```python
 import sys
 
@@ -364,7 +348,7 @@ def test_count_and_publish12():
 ```
 
 
-
+### test_publish.py
 ```python
 import sys
 import os
@@ -481,6 +465,7 @@ def test_publish_does_not_call_helpers_on_file_not_found(monkeypatch):
 ```
 
 
+### .gitlab-ci.yml
 ```yml
 # Definiert die Phasen (Stages) der Pipeline. In diesem Fall nur eine.
 stages:
@@ -508,3 +493,29 @@ run_tests:
     # Führt die Tests aus dem spezifischen Verzeichnis aus, in dem deine Testdateien liegen.
     - pytest uebung/task3/tests/
 ```
+
+
+
+# BEFEHLE
+
+dateien von einem verzeichnis in ein anderes kopieren
+
+cp -a pfadzumverzeichnis/.         .
+
+chmod 777  oder chmod +x
+cp -r /opt/task2/ ./task2 ::::copy folder 
+
+ipyhton3 hello.py cedoh001 - hier als input für sys.argv
+
+
+
+# Fragen
+
+2.2.a
+Warum kopieren wir test_start.sh in task3 ? Wofür ist die Datei?!
+
+
+
+# Anhang
+
+![](../../Attachments/Pasted%20image%2020251030144815.png)
