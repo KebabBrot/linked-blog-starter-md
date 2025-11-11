@@ -19,6 +19,7 @@ In diesem Schritt wird ein vordefiniertes Python-Script erstellt und ausgeführt
 1. Erstellen Sie in Ihrem Home-Verzeichnis ein neues leeres Verzeichnis mit dem Namen `~/uebung/task1`  _mkdir_
 2. Wechseln Sie in das neue Verzeichnis. _cd_
 3. Erstellen Sie im neuen Verzeichnis die Datei `hello.py` und fügen Sie die folgenden Zeilen ein: _nano hello.py_
+4. sys.argv -> ipython3 hello.py cedoh001
 
 ```python
 #!/bin/python3
@@ -38,7 +39,7 @@ with open("hello.txt", "w") as f:
 
 #### 1.1.b Script ausführen
 
-1. Machen Sie das Skript ausführbar und
+1. Machen Sie das Skript ausführbar und _chmod+x_ / _chmod 777_
 2. führen Sie es mit Ihrem Login-Namen als Argument aus.
 3. Prüfen Sie, ob hello.txt erstellt wurde.
 
@@ -58,7 +59,7 @@ Der Code für das Verschicken per MQTT ist vorgegeben und soll per Funktionsaufr
 ### 1.2.a Vorbereitung
 
 1. Erstellen Sie in Ihrem Home-Verzeichnis ein neues leeres Verzeichnis: `uebung/task2`
-2. Kopieren Sie alle Dateien aus dem Verzeichnis `/opt/task2` in das neue Verzeichnis.
+2. Kopieren Sie alle Dateien aus dem Verzeichnis `/opt/task2` in das neue Verzeichnis. _cp  /opt/task2/* ~/uebung/task2/_ _oder . als source um in das verzeichnis in dem man ist zu kopieren_
 3. Wechseln Sie in das erstellte Verzeichnis.
 4. Lassen Sie sich die Dateien in `uebung/task2` anzeigen.
 
@@ -150,11 +151,6 @@ Lösungshinweise:
 
 Führen die Anwendung (gegebener und entwickelter Python-Code) aus,
 in dem Sie die Datei `count_and_publish.py` ausführen.
-
-
-
-
-
 
 
 
