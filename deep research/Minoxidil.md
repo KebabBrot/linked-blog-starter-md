@@ -192,7 +192,7 @@ Dies ist die "Trennungs-Methode" (Routine 2), die wir besprochen haben, aber jet
 
 
 Wenn wenig Zeit:
-Retinol > 30min warten > Minoxidil > 30min warten > Glycerin > Panthenol > Creme
+Minoxidil > 30min warten > Retinol > 30min warten > Glycerin > Panthenol > Creme
 
 
 [[../Quellen/Quellen]] :
