@@ -8,3 +8,4 @@ Die Ergebnisse zeigen, dass HRS ein komplexes **Systeminteraktionsproblem** ist 
 Content length und transfer encoding header sind die häufigsten probleme
 
 --------
+# Technischer Hintergrund
