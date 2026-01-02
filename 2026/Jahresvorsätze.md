@@ -10,3 +10,4 @@ e commerce nochmal ansteuern, über ki informieren etc
 # Persönlich
 Routine aufbauen, lesen, Disziplin, Meditation, deep research ausbauen, bewusster konsumieren, journal?
 
+kreatin proteinpulver
